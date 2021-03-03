@@ -1,5 +1,5 @@
-const socket = io('https://tuff-chat-app.herokuapp.com/:3000');
-const messageForm = document.querySelector('#send-container');
+const socket = io('https://tuff-chat-app.herokuapp.com:3000');
+const messageForm = document.getElementById('send-container');
 const messageInput = document.getElementById('message-input');
 const messageContainer = document.getElementById('message-container');
 
